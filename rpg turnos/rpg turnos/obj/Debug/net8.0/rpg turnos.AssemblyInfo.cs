@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rpg turnos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+159f1b46b515449593d2e2ad991d22558ec7ea5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("rpg turnos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rpg turnos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

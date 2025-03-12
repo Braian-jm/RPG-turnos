@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace RPGPorTurnos
 {
@@ -6,8 +7,21 @@ namespace RPGPorTurnos
     {
         static void Main(string[] args)
         {
-            Personagem Char = new Personagem();
-            Char.criacaoPersonagem();
-        }
+            string escolha; 
+            Console.WriteLine("                          RPG DO TERMINAL                         "); 
+            Console.WriteLine("");
+            Console.WriteLine("[1] - Novo Jogo");
+            Console.WriteLine("[2] - quit");
+            escolha = Console.ReadLine();
+            if (escolha == "1")
+            {
+                Personagem Char = new Personagem();
+                Char.criacaoPersonagem();
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
+        } 
     }
 }
